@@ -1,0 +1,104 @@
+body {
+  background-color: #514f59;
+  margin: 0;
+}
+
+.head {
+  border: 3px solid #1d1128;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.head2 {
+  text-align: center;
+  margin-top: 0;
+  font-family: Lucida;
+  font-size: 2em;
+}
+
+.para {
+  color: #1d1128;
+  font-size: 20px;
+  line-height: 3em;
+  word-spacing: 0.3em;
+}
+
+.pic {
+  border: 15px solid;
+  padding: 0;
+  border-image: url(blk_rs.jpeg) 40 stretch;
+  margin: center;
+  width: 20em;
+  height: 20em;
+}
+
+.box {
+  height: 15%;
+  background-color: #e5d4ed;
+  padding: 45px;
+  margin: 2em;
+  border: 10px solid #1d1128;
+}
+
+nav {
+  background-color: #1d1128;
+}
+
+.navigation li {
+  font-size: 2em;
+  border-right: solid oldlace;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: inline;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.link a {
+  font-size: 1.5em;
+  color: rgb(12, 11, 11);
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 8em;
+  margin: auto auto;
+  justify-content: space-between;
+}
+
+.MC {
+  display: flex;
+  flex-direction: initial;
+  width: 80%;
+  height: 8em;
+  margin-right: 5em;
+}
+
+.pic2 {
+  border: 15px solid;
+  padding: 0;
+  border-image: url(blk_rs.jpeg) 40 stretch;
+  margin: center;
+  width: 20em;
+  height: 20em;
+}
+
+#skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0fr;
+  grid-template-rows: 1fr 0 0;
+}
